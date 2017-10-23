@@ -1,0 +1,31 @@
+{
+  "name": "express-smtp",
+  "version": "1.0.0",
+  "description": "express smtp server playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattWillcox/express-smtp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattWillcox/express-smtp/issues"
+  },
+  "homepage": "https://github.com/MattWillcox/express-smtp#readme",
+  "dependencies": {
+    "express": "4.16.2",
+    "helmet": "3.9.0",
+    "method-override": "2.3.10",
+    "mongodb": "2.2.33",
+    "mongoose": "4.12.4"
+  },
+  "devDependencies": {
+    "morgan": "1.9.0",
+    "nodemon": "1.12.1"
+  }
+}
